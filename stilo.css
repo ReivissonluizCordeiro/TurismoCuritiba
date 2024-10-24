@@ -1,0 +1,62 @@
+body{
+    justify-content: start;
+    background-image: url(./img/aru.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.pag {
+    display: grid;
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+    height: 1200px;
+    background-color:  #567a6efd;
+    color: white;
+    padding: 20px;
+    border-radius: 2px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20;
+    font-family: 'Oswald', sans-serif;
+}
+.til{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+body {
+    padding-top: 60px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2C5951;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+.im img {
+    width: 1000%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+.osc{
+    font-family: "Rethink Sans", sans-serif;
+
+}
+.im{
+    margin-top: 50px;
+}
+.osc1{
+    font-size: 25;
+    margin-top: 10px;
+    font-family: "Rethink Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}

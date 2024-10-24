@@ -1,0 +1,180 @@
+body {
+    justify-content: start;
+    background-image: url(./img/aru.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.teste {
+    background-color: #1e4d20;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .meu-header {
+        height: 80px;
+    }
+    .meu-header h1 {
+        font-size: 2em;
+    }
+}
+
+.titulo {
+    text-align: center;
+}
+
+.pag {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 10px;
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    background-color: #567a6efd;
+    color: white;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+.t1 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.til {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.text1 {
+    font-family: "Rethink Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.p1 {
+    font-family: "Rethink Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 13px;
+    text-align: left;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#imagem {
+    margin-top: 120px;
+    margin-left: 20px;
+}
+
+#imagem img {
+    width: 300px;
+    height: auto;
+    border-radius: 5%;
+}
+
+body {
+    margin: 0;
+    padding-top: 60px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2C5951;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.pag {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+#texto {
+    text-align: justify;
+}
+
+#tabela {
+    width: 300px;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#menu {
+    display: flex;
+    width: 600px;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-left: 440px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+.c1 {
+    background-image: url(./img/jardim.jpg);
+}
+
+.c2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./img/tan.jpg);
+}
+
+.c3 {
+    background-size: cover;
+    background-image: url(./img/oscar.jpg);
+}
+
+.c4 {
+    background-size: cover;
+    background-image: url(./img/japa.JPG);
+}
+
+.card {
+    flex: 1;
+    height: 100%;
+    transition: flex 0.5s;
+    cursor: pointer;
+}
+
+.card:hover {
+    flex: 3;
+}
+
+.ajust {
+    margin-bottom: auto;
+}
+
+.imglink {
+    transition: transform 0.3s ease;
+}
+
+.imglink:hover {
+    transform: scale(1.5);
+}
+
+.link {
+    text-align: center;
+}
